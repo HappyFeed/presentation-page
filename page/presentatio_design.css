@@ -1,37 +1,77 @@
 body {
   font-family: "EB Garamond", serif;
+  margin: 0;
+  padding: 0;
 }
 
-.cover {
-  height: 450px;
-  background-image: url("../pics/fondo.jpg");
-  color: lightgray;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-blend-mode: darken;
-}
-
-.cover-small {
-  height: 380px;
-  background-blend-mode: normal;
-}
-
-.card {
-  border: 0 !important;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.responsive-iframe {
-  position: relative;
-  padding-top: 56.25%;
-}
-
-.responsive-iframe iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
+#pantalla {
+  display: flex;
+  height: 50vh;
   width: 100%;
+}
+
+#pantalla2 {
+  display: flex;
+  height: 30vh;
+  width: 100%;
+}
+
+#pantalla3 {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+
+#pantalla4 {
+  display: flex;
+  height: 30vh;
+  width: 100%;
+}
+
+.left {
+  background: #f3f3f3;
   height: 100%;
+  width: 30%;
+}
+
+.right {
+  margin-right: 0;
+  background: white;
+  height: 100%;
+  width: 70%;
+}
+
+.contenedor {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  height: 40%;
+  width: 40%;
+}
+
+.photo > .imagen {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.titulo {
+  margin-bottom: 0;
+  color: #919494;
+  text-align: right;
+  font-family: Arial;
+  margin-right: 2vh;
+}
+
+.subtitulo {
+  margin-top: 0;
+  color: #abacac;
+  text-align: right;
+  font-family: Arial;
+  margin-right: 2vh;
 }
