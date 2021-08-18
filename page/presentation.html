@@ -12,16 +12,39 @@
     <body>
         <section id="pantalla">
            <div class="left">
-           <div class="contenedor">
-            <div class="photo">
-                <img src="../pics/Vito.jpg" class="imagen">
-            </div>    
-           </div>   
+            <div class="posicion">
+                <div class="contenedor">
+                    <img src="../pics/fotoPerfil.jpg" class="imagen">
+                </div>
+            </div>  
            </div>
            <div class="right">
-                <h1>
-                    hola
+                <h2 class="nombre">
+                   Alejandro
+                </h2>
+                <h1 class="apellido">
+                    Martinez
                 </h1>
+                <div id="presentacion">
+                    <h4 class="profesion">
+                        Ingeniero de sistemas
+                    </h4>
+                    <a href="https://www.youtube.com/watch?v=r8OPcBFATtU&ab_channel=BadBunny" class="redes"><img src="../pics/baseline_cruelty_free_black_24dp.png" ></a>
+                    <a href="https://www.youtube.com/watch?v=jhWkOCkXdKU&ab_channel=gatocomunista" class="redes"><img src="../pics/baseline_tiktok_black_24dp.png" ></a>
+                    <a href="https://signup.lan.leagueoflegends.com/es/signup/redownload" class="redes"><img src="../pics/baseline_sports_esports_black_24dp.png"></a>      
+                </div>
+                <div id="tabla">
+                    <table >
+                        <thead>
+                            <tr>
+                                <th>Locacion</th><th>Celular</th><th>Git</th><th>Email</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Cali, Colombia</td><td>316-1234567</td><td><a href="https://github.com/HappyFeed">HappyFeed</td><td>alejomam@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
            </div> 
         </section> 
         <section id="pantalla2">
@@ -30,20 +53,71 @@
                 <h6 class="subtitulo">Lo que soy yo ve</h6>
             </div>
             <div class="right">
-                 <h1>
-                     hola
-                 </h1>
+                 <p class="p">
+                     "Muchos años después, frente al pelotón de fusilamiento, 
+                     el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. 
+                     Macondo era entonces una aldea de veinte casas de barro y 
+                     cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, 
+                     blancas y enormes como huevos prehistóricos. 
+                     El mundo era tan reciente, que muchas cosas carecían de nombre, y para mencionarlas había que señalarlas con el dedo"
+                 </p>
+                 <p class="p">Tengo 21 años, estudio ingenieria de sistemas, curso octavo semestre, me gusta la salsa, escucho cualquier musica, juego la Apex, Lolcito,
+                    me gusta salir bastante, no estar en mi casa, salchipapear y poco mas. 
+                </p>
             </div> 
          </section> 
          <section id="pantalla3">
             <div class="left">
-                <h1 class="titulo"> Experticia</h1>
-                <h6 class="subtitulo">Lo que se me da bien</h6>
+                <h1 class="titulo"> Hobbies</h1>
+                <h6 class="subtitulo">Lo que me gusta</h6>
             </div>
             <div class="right">
-                 <h1>
-                     hola
-                 </h1>
+                 <div id= "fila">
+                    <div id="carta">
+                        <h1 class="numero">01</h1>
+                        <div widght=100%>
+                            <h1 class="separar">Cine</h1>
+                            <p class="separar1">
+                                Me gusta mucho ver peliculas, principalmente de "cine oscuro".
+                                Mis directores favoritos son Quentin tarantino y Martin Scorsese.
+                                Tambien, me gustan sagas como The lord of rings y Star Wars.
+                            </p>
+                        </div>       
+                    </div>
+                    <div id="carta">
+                        <h1 class="numero">02</h1>
+                        <div>
+                            <h1 class="separar">Bailar</h1>
+                            <p class="separar1">
+                                Me gusta mucho la salsa y la bachata, por eso ejerzo bastante esa actividad.
+                                Tambien entreno baile, como pa salir en la feria de Cali.
+                            </p>
+                        </div>       
+                    </div>
+                 </div>
+                 <div id= "fila">
+                    <div id="carta">
+                        <h1 class="numero">03</h1>
+                        <div widght=100%>
+                            <h1 class="separar">Comer</h1>
+                            <p class="separar1">
+                                Para mi la comida es importante, normalmente salgo con mis amigos
+                                y vamos a restaurantes de comida rapida, ya sea pizza, hamburgesa o salchipapa
+                            </p>
+                        </div>       
+                    </div>
+                    <div id="carta">
+                        <h1 class="numero">04</h1>
+                        <div>
+                            <h1 class="separar">Fotografia</h1>
+                            <p class="separar1">
+                                Me gusta la fotografia y lo que viene con ella, la forma de tratar la luz y enfoques
+                                tambien me ayuda a otro gusto que tengo como lo es caminar por la ciudad, para encontrar sitios 
+                                para fotografiar.
+                            </p>
+                        </div>       
+                    </div>
+                 </div>
             </div> 
          </section> 
          <section id="pantalla4">
@@ -52,11 +126,55 @@
                 <h6 class="subtitulo">en que nivel voy</h6>
             </div>
             <div class="right">
-                 <h1>
-                     hola
-                 </h1>
+                <div id="fila">
+                    <div class="skill">
+                        <button id="open1">Golang</button>
+                        <div class="porcentaje" id="modal_container1">
+                            <button class="button" id="close1">50%</button>
+                            <p>Media</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <button id="open2">Java</button>
+                        <div class="porcentaje" id="modal_container2">
+                            <button class="button" id="close2">80%</button>
+                            <p>Alta</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <button id="open3">Git</button>
+                        <div class="porcentaje" id="modal_container3">
+                            <button class="button" id="close3">70%</button>
+                            <p>Alta</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="fila">
+                    <div class="skill">
+                        <button id="open4">C#</button>
+                        <div class="porcentaje" id="modal_container4">
+                            <button class="button" id="close4">60%</button>
+                            <p>Media</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <button id="open5">React</button>
+                        <div class="porcentaje" id="modal_container5">
+                            <button class="button" id="close5">40%</button>
+                            <p>Baja</p>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <button id="open6">Vue</button>
+                        <div class="porcentaje" id="modal_container6">
+                            <button class="button" id="close6">40%</button>
+                            <p>Baja</p>
+                        </div>
+                    </div>
+                </div>
+                <script src="app.js"></script>
             </div> 
+            
          </section> 
-
     </body>
 </html>

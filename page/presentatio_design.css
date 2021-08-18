@@ -12,13 +12,13 @@ body {
 
 #pantalla2 {
   display: flex;
-  height: 30vh;
+  height: 40vh;
   width: 100%;
 }
 
 #pantalla3 {
   display: flex;
-  height: 50vh;
+  height: 55vh;
   width: 100%;
 }
 
@@ -41,7 +41,7 @@ body {
   width: 70%;
 }
 
-.contenedor {
+.posicion {
   height: 100%;
   width: 100%;
   display: flex;
@@ -49,12 +49,11 @@ body {
   align-items: center;
 }
 
-.photo {
-  height: 40%;
-  width: 40%;
+.contenedor {
+  width: 65%;
 }
 
-.photo > .imagen {
+.imagen {
   height: 100%;
   width: 100%;
   border-radius: 100%;
@@ -74,4 +73,122 @@ body {
   text-align: right;
   font-family: Arial;
   margin-right: 2vh;
+}
+
+@font-face {
+  font-family: "Comfortaa-Light";
+  src: url("../fonts/static/Comfortaa-Light.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-Bold";
+  src: url("../fonts/static/Comfortaa-Bold.ttf");
+}
+
+.nombre {
+  margin-top: 10%;
+  font-family: "Comfortaa-Light";
+  font-size: 350%;
+  margin-bottom: 0;
+  margin-left: 5%;
+}
+
+.apellido {
+  font-family: "Comfortaa-Bold";
+  font-size: 500%;
+  color: #efbd15;
+  margin: 0;
+  margin-left: 4.5%;
+}
+
+.profesion {
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 60%;
+  font-family: "Comfortaa-Light";
+}
+
+#presentacion {
+  display: flex;
+}
+
+.redes {
+  margin-right: 1%;
+  margin-left: 1%;
+  border: solid 2px black;
+  border-radius: 10%;
+}
+
+#tabla {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5%;
+  font-family: "Comfortaa-Light";
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 90%;
+  border-top: solid 2px black;
+}
+
+.p {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 150%;
+}
+
+#fila {
+  display: flex;
+  margin: 5px;
+}
+
+#carta {
+  margin-left: 5%;
+  margin-bottom: 5px;
+  margin-right: 2px;
+  display: flex;
+  font-family: "Comfortaa-Light";
+  font-size: 150%;
+}
+
+.separar {
+  margin-bottom: 0;
+  margin-left: 3px;
+}
+
+.separar1 {
+  margin-top: 0;
+  margin-left: 3px;
+}
+
+.numero {
+  color: #efbd15;
+}
+
+.skill {
+  font-family: "Comfortaa-Light";
+  margin-left: 5%;
+}
+
+.porcentaje {
+  font-size: 200%;
+  display: flex;
+  margin-right: 5px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+button {
+  font-size: 200%;
+  border: thick #efbd15;
+  color: #efbd15;
+  background-color: white;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
 }
