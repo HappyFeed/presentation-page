@@ -1,5 +1,5 @@
 Aprendizaje 
-Este taller brindo mucho aprendizaje, debido a que no habia trabajado anteriormente con HTML, CSS o JS. Entonces, me toco investigar bastante.
+Este taller me brindo mucho aprendizaje, debido a que no habia trabajado anteriormente con HTML, CSS o JS. Entonces, me toco investigar bastante.
 Tambien, al tener un boceto me llevo a buscar las soluciones para poder representarlo en la pantalla
 de lo que mas resalto son:
 
