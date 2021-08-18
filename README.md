@@ -5,6 +5,7 @@ de lo que mas resalto son:
 
 - Funciones basicas en JS
 - Secciones, clases y ID en HTML
+- Como hacer referencia de CSS a HTML
 - El Display en CSS
 - La creacion de tablas y componentes
 
